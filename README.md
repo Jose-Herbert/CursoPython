@@ -40,3 +40,7 @@ print(d)
 - [x] Aula 12
 - [x] Aula 13
 - [x] Aula 14
+- [x] Aula 15
+- [x] Aula 16
+- [x] Aula 17
+- [x] Aula 18

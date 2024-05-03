@@ -1,0 +1,23 @@
+'''
+Operadores de Comparação (Relacionais)
+.......................................
+OP........Significado.........Exemplo..
+.......................................
+>.........Maior...............2.>.1....
+>=........Maior.ou.Igual......2.>=.2...
+<.........Menor...............1.<.2....
+<=........Menor.ou.Igual......3.<=.3...
+==........Igual..............'a'.==.'a'
+!=........Diferente..........'a'.!=.'b'
+.......................................
+'''
+
+maior = 2 > 1
+maior_ou_igual = 2 >= 2
+menor = 1 < 3
+menor_ou_igual = 2 <= 2
+igual = 'a' == 'a'
+diferente = 'a' != 'b'
+
+resultadomaior = f'2 > 1 ? Maior? {maior}, 2 >= 2 Maior ou igual? {maior_ou_igual}'
+print(resultadomaior)

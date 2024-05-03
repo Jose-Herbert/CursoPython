@@ -8,4 +8,4 @@ nome_completo = 'José Herbert Rodrigues Moreno'
 soma = 2 + 2
 print(nome_completo)
 print(soma)
-print(430 ** 4300)
+print(4 ** 4)
