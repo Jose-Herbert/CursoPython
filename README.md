@@ -26,15 +26,15 @@ print(d)
 
 ### Aulas Completadas
 
--[x]Aula 1
--[x]Aula 2
--[x]Aula 3 
--[x]Aula 4
--[x]Aula 5
--[x]Aula 6
--[x]Aula 7
--[x]Aula 8
--[x]Aula 9
--[x]Aula 10
--[x]Aula 11
--[x]Aula 12
+- [x] Aula 1
+- [x] Aula 2
+- [x] Aula 3 
+- [x] Aula 4
+- [x] Aula 5
+- [x] Aula 6
+- [x] Aula 7
+- [x] Aula 8
+- [x] Aula 9
+- [x] Aula 10
+- [x] Aula 11
+- [x] Aula 12
