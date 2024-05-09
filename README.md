@@ -59,3 +59,9 @@ print(d)
 - [x] Aula 31
 - [x] Aula 32
 - [x] Aula 33
+- [x] Aula 34
+- [x] Aula 35
+- [x] Aula 36
+- [x] Aula 37
+- [x] Aula 38   (Alternativa feita baseado no que eu aprendi)
+- [x] Aula 38-2 (Alternativa feita baseado na aula)

@@ -12,7 +12,7 @@ contador = 0
 
 #loop com fim
 while contador < 10: #ele para no numero 10
-    contador += 1
+    contador = contador + 1
     print(contador)
 
 print('acabou')
