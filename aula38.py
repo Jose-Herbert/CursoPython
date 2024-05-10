@@ -33,11 +33,15 @@ while condicao:
         print('Porfavor digite apenas números')
 
     if operador == '' or len(operador) > 1:
+        print(' ')
         print('Error 014') # Erro de Operador (especifico, ocorreu um problema no operador)
+        print(' ')
     elif calculo != None:
         print(f'O resultado foi : {calculo}')
     else:
+        print(' ')
         print('Error 001') # Erro de calculo (geral, não especificado a um objeto)
+        print(' ')
 
     deseja_sair = input('Deseja sair? [s]im [n]ão: ')
     print(' ')
