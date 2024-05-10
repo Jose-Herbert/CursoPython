@@ -71,3 +71,6 @@ while acertou == False:
             else:
                 acertou_letra = False
                 print('*')
+
+
+                #

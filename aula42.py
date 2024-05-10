@@ -32,3 +32,9 @@ while True:
     #sempre que der um erro de stop interation ele da um break
     except StopIteration:
         break
+
+
+
+
+
+    #
