@@ -47,9 +47,6 @@ while acertou == False:
         if adivinhe_input in palavra_secreta:
             acertou_letra = True
             letra_acertada += adivinhe_input
-            if letra_acertada == palavra_secreta:
-                print(f'!!!Parabéns!!! Você Acertou a Palavra Secreta "{palavra_secreta}"')
-                acertou = True
         else:
             acertou_letra = False
 
@@ -59,18 +56,20 @@ while acertou == False:
             print(f'Você já tentou {qnt_tentativas}X')
         if qnt_tentativas == 4:
             print('Você so tem mais uma chance')
-        if qnt_tentativas == 5:
-            acertou = True
-            print('Você não conseguiu acertar a palavra.')
 
         # Código para printar a letra acertada
+        palavra_formada = ''
         for letra_secreta in palavra_secreta:
             if letra_secreta in letra_acertada:
+                palavra_formada += letra_secreta
                 acertou_letra = True
-                print(letra_secreta)
             else:
+                palavra_formada += '*'
                 acertou_letra = False
-                print('*')
-
-
-                #
+        print(palavra_formada)
+        if palavra_formada == palavra_secreta:
+            print(f'!!!Parabéns!!! Você Acertou a Palavra Secreta: "{palavra_formada}"')
+            acertou = True
+        if qnt_tentativas == 5:
+            acertou = True
+            print(f'Você não conseguiu acertar a palavra: {palavra_formada}')
