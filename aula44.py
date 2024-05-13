@@ -15,6 +15,7 @@ você vai conferir se a letra digitada está na palavra secreta
 Faça a contagem de tentativas do seu usário.
 
 """
+import os
 
 palavra_secreta = 'colar'
 letra_acertada = ''
@@ -68,6 +69,7 @@ while acertou == False:
                 acertou_letra = False
         print(palavra_formada)
         if palavra_formada == palavra_secreta:
+            os.system('clear')
             print(f'!!!Parabéns!!! Você Acertou a Palavra Secreta: "{palavra_formada}"')
             acertou = True
         if qnt_tentativas == 5:

@@ -71,3 +71,14 @@ print(d)
 - [x] Aula 42
 - [x] Aula 43
 - [x] Aula 44   (Exercicio complexo)
+- [x] Aula 45
+- [x] Aula 46
+- [x] Aula 47
+- [x] Aula 48
+- [x] Aula 49
+- [x] Aula 50
+- [x] Aula 51
+- [x] Aula 52
+- [x] Aula 53
+- [x] Aula 54
+- [x] Aula 55   (Exercicio complexo)
