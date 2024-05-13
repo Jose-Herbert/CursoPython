@@ -1,6 +1,7 @@
 # CursoPython
 
 Repositório para guardar os arquivos py do curso de python udemy.
+**Por: José Herbert**
 
 ### Exemplo de codígos para markdown:
 ```
