@@ -57,8 +57,10 @@ while pedir_sair == False:
             id = int(id_para_remover)
             del lista_compras[id]
             print(lista_compras)
-        except:
+        except IndexError:
             print('Esse id não existe na lista')
+        except Exception:
+            print('ERROR 404')
 
         # se acao_realizada for igual a 'l' ele irá listar os produtos da lista_compras
     elif acao_realizada == 'l':
