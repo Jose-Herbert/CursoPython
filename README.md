@@ -1,7 +1,12 @@
 # CursoPython
 
 Repositório para guardar os arquivos py do curso de python udemy.
-**Por: José Herbert**
+> [!IMPORTANT]
+> **Repositório feito por: José Herbert**
+
+> [!WARNING]
+> POR FAVOR SE UTILIZAR O REPOSITÒRIO NÂO APAGAR O CONTEÛDO DENTRO DELE,
+> É UM CONTEÛDO DE EXTREMA IMPORTÂNCIA.
 
 ### Exemplo de codígos para markdown:
 ```
@@ -82,4 +87,8 @@ print(d)
 - [x] Aula 52
 - [x] Aula 53
 - [x] Aula 54
+
+> [!TIP]
+> Aula 55 é uma otima solução que eu fiz em conjunto com outro progamador,
+> ele me deu dicas de como fazer a lista não repetir produtos.
 - [x] Aula 55   (Exercicio complexo)
