@@ -92,3 +92,13 @@ print(d)
 > Aula 55 é uma otima solução que eu fiz em conjunto com outro progamador,
 > ele me deu dicas de como fazer a lista não repetir produtos.
 - [x] Aula 55   (Exercicio complexo)
+
+- [x] Aula 56
+- [x] Aula 57
+- [x] Aula 58
+- [x] Aula 59
+- [x] Aula 60
+- [x] Aula 61
+- [x] Aula 62
+
+- [x] Teste Aula 61
