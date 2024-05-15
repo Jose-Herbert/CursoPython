@@ -39,7 +39,13 @@ while cpf_correto == False:
     .replace(',', '') \
     .replace('-', '') \
 
+        # para caso o usuário digite um cpf sequencial de mesmo número
     entrada_sequencial = cpf_input == cpf_input[0] * len(cpf_input)
+    if entrada_sequencial:
+        print('Entrada sequencial não aceita!')
+        print('')
+        print('Fechando Sistema...')
+        cpf_correto = True
 
     try:
         razao = 10
