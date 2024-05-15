@@ -39,6 +39,8 @@ while cpf_correto == False:
     .replace(',', '') \
     .replace('-', '') \
 
+    entrada_sequencial = cpf_input == cpf_input[0] * len(cpf_input)
+
     try:
         razao = 10
         # se o input for um digito e o tamanho desse input for 11 digitos ele irá limpar o console
