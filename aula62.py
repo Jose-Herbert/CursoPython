@@ -24,6 +24,7 @@ contrário disso:
 O primeiro dígito do CPF é 7
 """
 import os
+
 cpf_correto = False
 resultado_1 = 0
 resultado_2 = 0
@@ -33,7 +34,10 @@ resultado_2 = 0
 while cpf_correto == False:
     print(' ' * 5, 'Analisador de CPF')
     print('Digite seu CPF: ')
-    cpf_input = input('')
+    cpf_input = input('') \
+    .replace('.', '') \
+    .replace(',', '') \
+    .replace('-', '') \
 
     try:
         razao = 10
@@ -97,9 +101,18 @@ while cpf_correto == False:
 # Exeções de erros (depois documentar)
     except ValueError:
         print('Error 105 ValueError...')
+        print('')
+        print('Porfavor Digite um CPF Valido')
 
     except TypeError:
         print('Error 067 TypeError...')
+        print('')
+        print('Porfavor Digite um Valor Valido')
+
+    except NameError:
+        print('Error 217 NameError...')
+        print('')
+        print('Porfavor Digite Apenas Números')
 
 
 
